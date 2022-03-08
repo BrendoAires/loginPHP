@@ -3,7 +3,7 @@
 
         if(isset($login_cookie)){
             echo"Bem-vindo, $login_cookie<br>";
-            echo"Essas informações <font color='red'>podem</font> ser acessadas por vc";
+            echo"Essas informações <font color='red'>podem</font> ser acesasadas por vc";
             echo"<a href='index.html'>Sair</a>";
 
             
