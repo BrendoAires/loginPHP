@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+$--ff-poppins: 'Poppins', sans-serif;
+$--ff-roboto: 'Roboto', sans-serif;
+
+body{
+    width:100%;
+}
+main{
+    font-family: $--ff-poppins;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+            align-items: center;
+            background:rgb(174, 172, 177);
+
+        .wrap{
+            
+            background:rgb(107, 93, 124);
+            margin:0 auto;
+            width:50%;
+            height:400px;
+            border-radius:10px;
+            box-shadow: 8px 10px 20px 0;
+
+            form{
+                height: inherit;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                p, a{
+                    margin-top: 30px;
+                    color:rgb(192, 190, 190);
+                    font-size: .8rem;
+                }
+                a{
+                    font-size: .9rem;
+                    transition: .2s;
+
+                    &:hover{
+                        
+                        color: rgb(192, 190, 190);
+                    }
+                }
+
+                .buttons{
+                    display: flex;
+                    flex-direction: row;
+                    width: 40%;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                    
+
+                    input{
+                        width:45%;
+                        transition:.2s;
+                            &:hover{
+                                background: rgb(192, 190, 190);
+                                border:rgb(107, 93, 124);
+                            }
+                    }
+                }
+
+                input{
+                    width:40%;
+                    height:30px;
+                    border-radius: 10px;
+                    border:1px solid black;
+                    background: transparent;
+                    margin-bottom: 10px;
+                        
+                }
+                label{
+                    margin: 10px 0;
+                    font-size:1.2rem;
+                }
+            }
+        }
+
+}
